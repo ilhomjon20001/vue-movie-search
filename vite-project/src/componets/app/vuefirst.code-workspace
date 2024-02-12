@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../vuefirst"
+		},
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../webpack bankist projekt"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "demo_vue"
+	}
+}

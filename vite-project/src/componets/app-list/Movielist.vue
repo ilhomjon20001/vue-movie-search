@@ -8,7 +8,7 @@
         <button type='button' class='btn-cookie btn-sm' v-on:click="oncookie">
             <i class='fas fa-cookie'></i>
         </button>
-        <button type='button' class='btn-trash btn-sm'>
+        <button type='button' class='btn-trash btn-sm' @click="delitemovie">
             <i class='fas fa-trash'></i>
         </button>
         <i class='fas fa-star'></i>
@@ -30,6 +30,9 @@ export default {
       },
       oncookie(){
         this.$emit("moviecookie", this.movie.id)
+      },
+      delitemovie(){
+        this.$emit("delitecard", this.movie.id)
       }  
     },
 }
